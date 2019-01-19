@@ -1,0 +1,22 @@
+{
+  "name": "im-a-little-teapot",
+  "version": "0.0.1",
+  "description": "Demonstrate use of TypeScript",
+  "main": "src/main/teapot.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -t 10000 -r ts-node/register $(find src/test/unit -name '*.spec.ts')",
+    "test-integration": "mocha -t 30000 -r ts-node/register $(find src/test/integration -name '*.spec.ts')"
+  },
+  "author": "Elizabeth Venner",
+  "license": "MIT License",
+  "devDependencies": {
+    "@types/chai": "^4.1.3",
+    "@types/mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {}
+}
