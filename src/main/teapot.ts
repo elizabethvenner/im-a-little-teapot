@@ -16,7 +16,6 @@ export class Teapot {
             return "TIP ME OVER AND POUR ME OUT!!";
         }
     }
-
 }
 
 export class Height {

@@ -2,8 +2,8 @@
   "compilerOptions": {
     "module": "commonjs",
     "allowJs": false,
-    "alwaysStrict": true,
-    "noImplicitAny": true,
+    "alwaysStrict": false,
+    "noImplicitAny": false,
     "suppressImplicitAnyIndexErrors": true,
     "traceResolution": false,
     "removeComments": true,
